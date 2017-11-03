@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
     "mocha": "^4.0.1",
     "webpack": "^3.8.1"
   }
