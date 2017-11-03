@@ -1,0 +1,32 @@
+{
+  "name": "gulpdemo",
+  "version": "1.0.0",
+  "description": "仅测试gulp",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "webpack": "webpack",
+    "gulp-watch": "gulp watch",
+    "test": "mocha test/mocha.js",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/mocha.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontzhm/gulpDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frontzhm/gulpDemo/issues"
+  },
+  "homepage": "https://github.com/frontzhm/gulpDemo#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "webpack": "^3.8.1"
+  }
+}
